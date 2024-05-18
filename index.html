@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Topics Summary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .topic {
+            margin-bottom: 20px;
+        }
+
+        .topic h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        .topic h2 a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .topic p {
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>JavaScript Topics Summary</h1>
+        <div class="topic">
+            <h2><a href="chapter 1/index.html">1. Alerts</a></h2>
+            <p>Alerts are used to display a message box to the user. The <code>alert()</code> function creates a popup
+                box with a specified message and an OK button.</p>
+            <pre><code>alert("Hello, World!");</code></pre>
+        </div>
+        <div class="topic">
+            <h2><a href="chapter 2/index.html">2. Variables for Strings</a></h2>
+            <p>String variables are used to store text. Strings are enclosed in either single quotes ('') or double
+                quotes ("").</p>
+            <pre><code>var greeting = "Hello, World!";</code></pre>
+        </div>
+        <div class="topic">
+            <h2><a href="chapter 3/index.html">3. Variables for Numbers</a></h2>
+            <p>Number variables are used to store numeric values. JavaScript supports both integers and floating-point
+                numbers.</p>
+            <pre><code>var age = 25;
+var price = 19.99;</code></pre>
+        </div>
+        <div class="topic">
+            <h2><a href="chapter 4/index.html">4. Variable Names Legal and Illegal</a></h2>
+            <p>Variable names can include letters, digits, underscores, and dollar signs, but they must begin with a
+                letter, underscore, or dollar sign. Reserved words cannot be used as variable names.</p>
+            <p><strong>Legal:</strong> <code>var name, _name, $name, name1;</code></p>
+            <p><strong>Illegal:</strong> <code>var 1name, name!, var, function;</code></p>
+        </div>
+        <div class="topic">
+            <h2><a href="chapter 5/index.html">5. Math Expressions: Familiar Operators</a></h2>
+            <p>JavaScript supports basic arithmetic operations: addition (+), subtraction (-), multiplication (*), and
+                division (/).</p>
+            <pre><code>var sum = 5 + 3;
+var difference = 5 - 3;
+var product = 5 * 3;
+var quotient = 5 / 3;</code></pre>
+        </div>
+        <div class="topic">
+            <h2><a href="chapter 6-9/index.html">6. Math Expressions: Unfamiliar Operators</a></h2>
+            <p>In addition to familiar operators, JavaScript includes modulo (%) for remainder, increment (++), and
+                decrement (--).</p>
+            <pre><code>var remainder = 5 % 3;
+var increment = 5;
+increment++;
+var decrement = 5;
+decrement--;</code></pre>
+        </div>
+        <div class="topic">
+            <h2>7. Math Expressions: Eliminating Ambiguity</h2>
+            <p>Use parentheses to control the order of operations and eliminate ambiguity in mathematical expressions.
+            </p>
+            <pre><code>var result = (5 + 3) * 2; // 16
+var result = 5 + (3 * 2); // 11</code></pre>
+        </div>
+        <div class="topic">
+            <h2>8. Concatenating Text Strings</h2>
+            <p>Use the + operator to concatenate strings.</p>
+            <pre><code>var greeting = "Hello, " + "World!";</code></pre>
+        </div>
+        <div class="topic">
+            <h2>9. Prompts</h2>
+            <p>The <code>prompt()</code> function displays a dialog box that prompts the user for input. The input can
+                then be stored in a variable.</p>
+            <pre><code>var name = prompt("Enter your name:");
+alert("Hello, " + name + "!");</code></pre>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 JavaScript Learning Resources
+    </footer>
+</body>
+
+</html>
